@@ -18,6 +18,10 @@
         <caption>Keypress event</caption>
         <description></description>
       </property>
+      <property key="interval" type="integer" defaultValue="300" required="true">
+        <caption>Interval</caption>
+        <description>Don't trigger this action more than once in the allotted time (ms). Set to 0 for none.</description>
+      </property>
       <!-- <systemProperty key="Label"/> -->
     </propertyGroup>
   </properties>
